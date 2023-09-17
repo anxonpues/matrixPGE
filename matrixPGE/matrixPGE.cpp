@@ -144,6 +144,9 @@ protected:
 					else
 						if (i <= 5)
 							col = olc::YELLOW;
+						else
+							if (i <= 8)
+								col = olc::DARK_YELLOW;
 
 				int nCharIndex = (i - (int)s.fPosition) % s.sText.size();
 
